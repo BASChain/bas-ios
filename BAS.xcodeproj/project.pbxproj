@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CB0C4DF243AD29800DEF6F4 /* BAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB0C4DF243AD29800DEF6F4 /* BASWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB0C4E2243AD29800DEF6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CB0C4E4243AD29800DEF6F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CB0C4E6243AD29800DEF6F4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		7CB0C4E0243AD29800DEF6F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CB0C4DF243AD29800DEF6F4 /* BAS.app */,
+				7CB0C4DF243AD29800DEF6F4 /* BASWallet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			);
 			name = BAS;
 			productName = BAS;
-			productReference = 7CB0C4DF243AD29800DEF6F4 /* BAS.app */;
+			productReference = 7CB0C4DF243AD29800DEF6F4 /* BASWallet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baschain.baswallet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BASWallet;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baschain.baswallet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BASWallet;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
